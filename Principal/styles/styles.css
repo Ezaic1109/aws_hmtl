@@ -98,3 +98,22 @@ a.task-card {
 a.task-card:hover .card-title {
   color: #0a58ca;
 }
+ .certificado-card {
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+    .certificado-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+    .certificado-title {
+      text-align: center;
+      margin-top: 10px;
+      font-weight: 500;
+    }
+    .certificado-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+    }
